@@ -13,10 +13,8 @@ const int TEMP_SENSOR_PIN = 2;          // pin DS18B20 sensor in connected to
 //============================Set Constants============================//
 
 const int TEMP_CALIBRATION = -1.8;      // temperature calibration unit
-//const char* SSID = "FRITZ!Box 3490";    // WiFi-name
-//const char* PASS = "04061984";          // WiFi-password
-const char* SSID = "Free Wi-Fi";    // WiFi-name
-const char* PASS = "jojolinul";          // WiFi-password
+const char* SSID = "Your WiFi Name;    // WiFi-name
+const char* PASS = "Your WiFi Password";          // WiFi-password
 
 const int WIFI_DELAY = 15 * 1000;           // connect to Wifi delay 15 seconds (1 second = 1000 ms)
 const int MEASURE_DELAY = 30 * 1000;        // measure temperature delay, every 5 minutes (1 second = 1000 ms)
